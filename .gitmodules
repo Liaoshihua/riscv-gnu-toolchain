@@ -1,15 +1,15 @@
 [submodule "binutils"]
 	path = binutils
 	url = https://github.com/Liaoshihua/riscv-binutils-gdb.git
-	branch = ilp32_elf32
+	branch = backport-rv64ilp32-binutils2.38
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/Liaoshihua/riscv-gcc.git
-	branch = ilp32
+	branch = backport-rv64ilp32-gcc-12
 [submodule "glibc"]
 	path = glibc
   url = https://github.com/Liaoshihua/glibc.git
-  branch = ilp32
+  branch = backport-rv64ilp32-glibc-2.36
 [submodule "dejagnu"]
 	path = dejagnu
 	url = https://git.savannah.gnu.org/git/dejagnu.git
